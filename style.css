@@ -1,0 +1,53 @@
+html{
+    font-size: 62.5%;
+}
+.main-body{
+      display: flex;
+      justify-content: space-between
+}
+  .content-body{
+      margin: 1.5rem;
+  }
+.img-body img{
+    width: 60rem;
+    height: 60rem;
+    margin: 2rem;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+/*for mobile App */
+@media(max-width:768px){
+    .main-body{
+        display: block;
+    }
+    .content-body h2{
+        word-spacing: 0.5rem;
+    }
+   body h1{
+       color: blue;
+   } 
+}
+
+/*for Desktop */
+
+@media(min-width:1024px){
+     .content-body{
+         background-color: yellow;
+     }
+     .content-body h2{
+         word-spacing: 1.5rem;
+     }
+}
+
+/*for i-pad and tablet& */
+
+@media(min-width:769px) and (max-width:1023px){
+    body h1{
+        color: yellow;
+    }
+    .content-body h2{
+        background-color: blueviolet;
+    }
+}
